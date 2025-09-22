@@ -15,11 +15,21 @@
         }
         
         </script>
+
+        <script>
+            function bgchange(){
+                document.body.style.backgroundColor="yellow";
+                document.body.style.color="red";
+            }
+            </script>
 </head>
 <body>
-    <h1 id="name">Hello world</h1>
+    <h1 id="name", id="bgchange">Hello world</h1>
     <br>
-    <button onclick="demo()">Change text</button>
+    <button onclick="bgchange()" onblclick="name()">Change text</button>
+
+    
+    
     
 </body>
 </html>
