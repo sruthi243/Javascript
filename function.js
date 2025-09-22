@@ -24,3 +24,12 @@ sub();
 //Es7
 const mul=(a,b)=>console.log(a*b);
 mul(2,4);
+
+
+let name="sruthi"
+	function demo(){
+	    let name="sru"
+	    document.write('hello my name is' $(name));
+	}
+document.write("hello,my name is" $(name));
+	demo();
